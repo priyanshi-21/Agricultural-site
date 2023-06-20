@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+   width: 100%;
+   height: 100%;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 250, 73);
+}
+#image{
+    width: 650px;
+    height: 400px;
+    /* background-color: yellow; */
+    background-image: url("https://cdn.dribbble.com/users/610636/screenshots/15755294/media/3effd6d8595d54665385706730fd3b41.png?compress=1&resize=400x300&vertical=top");
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);background-size: cover;
+    z-index: 10;
+}
+#image img {
+    width: 650px;
+    height: 400px;
+}
+#leftnum h1{
+    font-size: 350px;
+    color: rgb(246, 224, 33);
+    top: -50px;
+    position: absolute;
+    font-weight: 500;
+}
+#rightnum{
+    font-size: 200px;
+    color: rgb(246, 224, 33);
+    top: 200px;
+    position: absolute;
+    right: 0;
+    font-weight: 100;
+}
+#text{
+    /* width: 90px; */
+    /* height: 70px; */
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+    top: 150px;
+}
+#text h3{
+    color: rgb(246, 224, 33);
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#text2{
+color:rgb(246, 224, 33);
+right: 250px;
+position: absolute;
+top: 120px;
+}
+#text2 h3{
+font-size: 50px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+} 
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(142, 112, 112);
+    overflow: hidden;
+}
+#main img{
+    position: absolute;
+    width: 660px;
+    right: 0%;
+    /* z-index: 2;
+     */
+     filter: blur(7px);
+}
+#overlay{
+    background-color: rgba(52, 52, 52, 0.427);
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#main2{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(169, 116, 116, 0.847);
+    z-index: 99;
+}
+#over{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.32);
+}
+#over img{
+    width: 40%;
+    height: 100%;
+    filter: none;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid red; */
+}
+#nav h3{
+    color: white;
+    font-family: cursive;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+#line{
+    width: 80%;
+    height: 2px;
+    color: white;
+    background-color: white;
+    z-index: 100;
+    left: 80px;
+    position: absolute;
+}
+#innav{
+    width: 12%;
+    height: 40px;
+    right: 0%;
+    /* border: 2px solid blue; */
+    position: absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    /* left: 10px; */
+    display: flex;
+}
+.dot{
+    
+    left: 10px;
+    width: 5%;
+    height: 9%;
+    border-radius: 50%;
+    background-color: white;
+}
+#innav h4{
+color: white;
+font-family: cursive;
+right: 0%;
+position: absolute;
+}
+#navdown{
+    position: absolute;
+    width: 5%;
+    height: 40px;
+    top: 40px;
+    /* border: 2px solid blue ; */
+    display: flex;
+    color: white;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#text{
+    position: absolute;
+    /* display: flex; */
+    top: 25%;
+    left: 80px;
+    width: 45%;
+    height: 65%;
+    /* border: 2px solid red; */
+    color: white;
+    /* line-height: 40px; */
+}
+#text h1{
+    font-size: 80px;
+    font-family: "monument";
+}
+#it{
+    position: absolute;
+    display: flex;
+    bottom: 0%;
+    justify-content: space-between;
+    
+    align-items: center;
+    font-family: cursive;
+}
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+   padding: 7px;
+   border-radius: 40%;
+   /* font-family: ; */
+}
+#it h4{
+    font-family: cursive;
+}
+#text h4{
+    font-family: cursive;
+}
+
+#right{
+    position: absolute;
+    right: 10px;
+    bottom: 10%;
+    width: 40px;
+    height: 50%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+   
+}
+#right h4{
+transform-origin: 0% 0%;
+transform: rotate(90deg);
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- header section starts -->
+
+     <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> FARMEX </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+            <a href="#footer">contact us</a>
+        </nav>
+
+        <div class="icons">
+           <div class="fas fa-bars" id="menu-btn"></div>
+           <div class="fas fa-search" id="search-btn"></div>
+           <div class="fas fa-shopping-cart" id="cart-btn"></div>
+           <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="maize.png" alt="">
+                <div class="content">
+                    <h3>Maize</h3>
+                    <span class=".price">Rs2.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="wheat.png" alt="">
+                <div class="content">
+                    <h3>Wheat</h3>
+                    <span class=".price">Rs2.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="rice.png" alt="">
+                <div class="content">
+                    <h3>Rice</h3>
+                    <span class=".price">Rs2.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.69/-</div>
+            <a href="#" class="btn">checkout</a> 
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>Forget your password <a href="#">Click here</a></p>
+            <p>Dont't have an account <a href="#">Create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+    <!-- header section stop -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>We transform the <span>agricultural</span> world</h3>
+            <p>We help increase crop productionby providing affordable and actinable information to a range of actors, most importantly small holders farmers.</p>
+            <a href="#"></a>
+        </div>
+    </section>
+    <!-- home section stops -->
+    <!-- features section starts -->
+<section class="features" id="features">
+    <h1 class="heading"> our <span>features</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="agrtool.png" alt="">
+            <h3>AGRICULTURAL <br> TOOLS</h3>
+            <p>Agricultural tools such as sickle, plough, hoe, drills etc. are implemented in agricultural activities to make the process more productive and efficient.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="agrproduct.png" alt="">
+            <h3>AGRICULTURAL PRODUCTS</h3>
+            <p>Agricultural products means any product or commodity, raw or processed, that is marketed for human consumption(excluding water, salt and additives) or animal feeds.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="agrdealer.png" alt="">
+            <h3>AGRICULTURAL DEALERS</h3>
+            <p>Agricultural dealers are an advisor employed to assist peope in rural areas with methods of farming and home economics.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+</section>
+<!-- features section ends -->
+<!-- products section starts -->
+<section class="products" id="products">
+      <h1 class="heading"> our <span>products</span></h1>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="wheat.png" alt="">
+                <h3>Wheat</h3>
+                <div class="price"> Rs4.99/- - Rs10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="rice.png" alt="">
+                <h3>Rice</h3>
+                <div class="price"> Rs4.99/- - Rs10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="maize.png" alt="">
+                <h3>Maize</h3>
+                <div class="price"> Rs4.99/- - Rs10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="jowar.png" alt="">
+                <h3>Jowar</h3>
+                <div class="price"> Rs4.99/- - Rs10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="Fertilizer.png" alt="">
+                <h3>Fertilizer</h3>
+                <div class="price"> Rs4.99/- - Rs10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="axe.png" alt="">
+                <h3>Axe</h3>
+                <div class="price"> Rs4.99/- - Rs10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="Shovel.png" alt="">
+                <h3>Shovel</h3>
+                <div class="price"> Rs4.99/- - Rs10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="plough.png" alt="">
+                <h3>Plough</h3>
+                <div class="price"> Rs4.99/- - Rs10.99/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+      </div>    
+</section>
+<!-- products section ends -->
+<!-- categories section starts -->
+<section class="categories" id="categories">
+    <h1 class="heading"> product <span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="rice.png" alt="">
+            <h3>Rice</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="wheat.png" alt="">
+            <h3>Wheat</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="Dairyproduct.png" alt="">
+            <h3>Dairy products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="agrtool.png" alt="">
+            <h3>Tools</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+<!-- categories section ends -->
+<!-- review section starts -->
+<section class="review" id="review">
+    <h1 class="heading"> customer's <span>review</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="person1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Perferendis velit ea quibusdam hic sapiente 
+                quas quasi qui totam obcaecati dolorum?</p>
+                <h3>John deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="person2.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Perferendis velit ea quibusdam hic sapiente 
+                quas quasi qui totam obcaecati dolorum?</p>
+                <h3>John deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="person3.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Perferendis velit ea quibusdam hic sapiente 
+                quas quasi qui totam obcaecati dolorum?</p>
+                <h3>John deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- review section ends -->
+
+<!-- blogs section starts -->
+<section class="blogs" id="blogs">
+    <h1 class="heading">our <span>blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="potato.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calender"></i> 1st may, 2021</a>
+                </div>
+                <h3>Potato - diseases and symptoms</h3>
+                <p>Potatoes are one of the most common and important food sources on the planet. While there are several benefits of growing potatoes,it's important to...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="cotton.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calender"></i> 1st may, 2021</a>
+                </div>
+                <h3>Cotton farming - the success story</h3>
+                <p>Cotton is one of the most important crops in the marathwada and Vidarbha region of maharastra. At a time when most region in the state...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Wheat.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i> by user</a>
+                    <a href="#"><i class="fas fa-calender"></i> 1st may, 2021</a>
+                </div>
+                <h3>7 tips to get the best wheat produce </h3>
+                <p>Wheat is one of the most important food crops in the world and wheat farming proper planning to produce a high yiel. Most farmers...</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- blogs section ends -->
+<!-- footer section starts -->
+<section class="footer" id="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3> FARMEX<i class="fas fa-shopping-basket"></i></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, magnam?</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-right"></i> +123-456-7890</a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333</a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> abc@gmail.com</a>
+            <a href="#" class="links"> <i class="fas fa-map-market-alt"></i> mumbai, india - 400104</a>
+        </div>
+             <div class="box">
+                <h3>quick link</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div> 
+        <div class="box">
+            <h3>newsletter</h3>
+           <p>subscribe for latest updates</p>
+           <input type="email" placeholder="your email" class="email">
+           <input type="submit" placeholder="subscribe" class="btn">
+        </div>
+    </div>
+    <div class="credit"> created by <span>Dynamic Creators</span>  | all right reserved &copy;</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

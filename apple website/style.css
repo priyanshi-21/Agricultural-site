@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100%;
+    /* background-color: red; */
+}
+#nav{
+    width: 100%;
+    height: 43px;
+    background-color: rgb(31, 31, 31);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 141px;
+    padding-left: 141px;
+   
+}
+#nav h5{
+    color: white;
+    font-weight: lighter;
+    font-size: 12px;
+}
+#nav i{
+    color: white;
+}
+#nav2{
+    position: absolute;
+    top: 43px;
+    width: 100%;
+    height: 73px;
+    background-color: #f4f4f4;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav2 img{
+    position: absolute;
+    left: 30%;
+    width: 120px;
+    top: 30%;
+}
+#nav2 a{
+    position: absolute;
+    left: 40.5%;
+    text-decoration: none;
+    top: 34%;
+    font-weight: normal;
+    font-size: 15px;
+}
+a i{
+    align-items: baseline;
+    justify-content: baseline;
+    position: absolute;
+    top: 3px;
+}
+#itext{
+    width: 350px; 
+    height: 120px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 160px;
+    left: 40%;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+#itext h1{
+    font-size: 60px;
+    font-weight: 550;
+    z-index: 10;
+}
+#itext h4{
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 10;
+}
+#ileft{
+    position: absolute;
+    bottom: -15%;
+    left: 10%;
+    font-size: medium;
+    text-decoration: none;
+    z-index: 10;
+}
+#iright{
+    position:absolute;
+    bottom: -15%;
+    right: 35%;
+    font-size: medium;
+    text-decoration: none;
+    z-index: 10;
+}
+#img{
+    position: absolute;
+    top: 240px;
+    left: 23%;
+    width: 670px;
+    height: 440px;
+    /* overflow: hidden; */
+    background-color: red;
+    background-image: url(https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone13-green-hero-2up-220308_big_carousel.jpg.large.jpg);
+   background-size: cover;
+}
+#second{
+    position: absolute;
+    background-color: aqua;
+    width: 100vw;
+    height: 100%;
+    /* top: 120%; */
+}
+#stext{
+    /* width: 203px;
+    height: 200px; */
+    /* background-color: red; */
+    z-index: 12;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+}
+#stextm{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    /* background-color: blue; */
+}
+#stextl{
+    position: absolute;
+    /* bottom: 0%; */
+    /* height: 40px;
+    width: 50%;
+    background-color: black; */
+}
+#stextr{
+    position: absolute;
+    /* bottom: 0%; */
+    /* height: 40px; */
+    /* width: 50%; */
+    right: 0%;
+    /* background-color: rgb(177, 113, 113); */
+}

@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    
+    width: 100%;
+    height: 98%;
+    background-color: rgb(226, 219, 219);
+}
+
+#inner{
+   display: flex;
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    top: 60px;
+    left: 75px;
+    background-color: white;
+    overflow: hidden;
+}
+ 
+#nav{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 60px;
+   
+}
+
+.slide{
+    margin-top: 60px;
+    height: 90%;
+   
+}
+
+#a{
+width: 35%;
+
+}
+#b{
+width: 38%;
+background-image: url(https://images.unsplash.com/photo-1595681242679-1b77b1e6a3c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zmxvd2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+#c{
+
+width: 24%;
+}
+
+#andr{
+    position: absolute;
+    left: 17%;
+    width: 30%;
+    height: 90%;
+}
+#txt{
+    position: absolute;
+    left: 48px;
+    top: 60px;
+    font-weight: bolder;
+    z-index: 9;
+}
+h1{
+   font-weight: bolder;
+   font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#para{
+    position: absolute;
+    left: 48px;
+    top: 190px;
+}
+
+#para h6{
+    font-weight: 100;
+}
+button{
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    left: 48px;
+    top: 290px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+cursor: pointer;
+}
+#sqr{
+    position: absolute;
+    width:70px;
+    height: 70px;
+    background-color: black;
+    top: 140px;
+    right: 190px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#dot{
+position: absolute;
+width: 50px;
+height: 50px;
+top: 120px;
+color: red;
+}
+
+#locate{
+    position: absolute;
+    color: black;
+    top: 57%;
+    right: 180px;
+}
+
+#l2{
+    position: absolute;
+    color: black;
+    top: 70%;
+    right: 180px;
+}
+
+#locate h4{ 
+    font-weight: lighter;
+    font-size: x-small;
+}
+#l2 h4{
+    font-weight: lighter;
+    font-size: x-small;
+}
+ 
+#locate h5{
+    font-weight: lighter;
+    font-size: x-small;
+}
+ 
+#l2 h5{
+    font-weight: lighter;
+    font-size: x-small;
+}
+
+#c i{
+    color: black;
+    justify-content: space-between;
+}
+#l{
+    position: absolute;
+    top: 90%;
+    right: 18%;
+}
+#r{
+    position: absolute;
+    top: 90%;
+    right: 13%;
+}
+#num{
+    position: absolute;
+    text-align: left;
+    vertical-align: middle;
+-webkit-transform: rotate(-90deg);
+font-size: xx-large;
+font-weight: bolder;
+top: 40%;
+left: 90px;
+}
+ #num h1{
+     font-size: xx-large;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #nav{
+     position: absolute;
+     align-items: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding-left: 10px;
+     display: flex;
+ }
+ #N2{
+     position: absolute;
+     display: flex;
+   width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 430px;
+    padding-right: 430px;
+ }
+
+ hr{
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+     height: 4px;
+     background-color: black;
+     margin: 1px;
+     margin-left: -5px;
+ }
+
+ #a hr{
+     position: absolute;
+     -webkit-transform: rotate(-90deg);
+     bottom: 0%;
+     width: 40%;
+     left: -11%;
+ }
+ #N2 i {
+     color: black;
+     position: absolute;
+     top: 8px;
+     right: 320px;
+ }
+ #last h5{
+     position: absolute;
+     -webkit-transform: rotate(90deg);
+     right: 0px;
+     top: 50%;
+ }
+
+ #last hr{
+     position: absolute;
+     -webkit-transform: rotate(180deg);
+     color: black;
+     height: 70px;
+     right: 58px;
+     width: 3px;
+     top: 25%;
+ }
+ #last hr{
+    position: absolute;
+    -webkit-transform: rotate(180deg);
+    color: black;
+    height: 70px;
+    right: 58px;
+    width: 3px;
+    bottom: 25%;
+}
+#N2 #you{
+    position: absolute;
+    right: 20px;
+}
+
